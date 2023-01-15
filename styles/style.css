@@ -1,0 +1,379 @@
+/* banner */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+/* font-link */
+
+  
+
+.container-first{
+    width: 100%;
+    max-width: 1250px;
+    height: 900px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    background: rgba(255, 144, 14, 0.1);
+}
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    background-color: #FF900E;
+}
+ nav ul{
+    display: flex;
+    gap: 35px;
+}
+ul>li{
+    list-style: none;
+}
+.brand{
+    text-align: center;
+    width: 900px;
+    max-width: 1200;
+    height: 255px;
+    padding: 10px 40px;
+    margin: auto;
+}
+.brand-heading{
+    font-weight: 700;
+    font-size: 64px;
+}
+.brand-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+}
+.btn--primary{
+    height: 55px;
+    width: 180px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    /* margin-top: 20px; */
+    
+    
+
+}
+.brand-img{
+    height: 500px;
+    max-height: 900px;
+    width: 1800px;
+    max-width: 1000px;
+    /* border:1px solid blue; */
+    padding: 10px 100px;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+/* -----------------
+-----------------features section--------------------
+-------------------------------- */
+.features{
+    width: 100%;
+    max-width: 1250px;
+    padding: 20px 10px; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+.feature-images{
+    height: 750px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    object-fit: cover;
+    object-position: top;
+    padding: 30px;
+    flex-shrink: 0;
+}
+.features > img{
+    height: 100%;
+    width: 100%;
+    flex-grow: 2;
+}
+.features-text{
+    width: 50%;
+    text-align: center;
+    
+    
+}
+/* ------------
+loving-features----------
+---------- */
+.loving-features{
+    width: 100%;
+    max-width: 1250px;
+    
+    padding: 20px 10px;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+
+    border: 1px solid black;
+    gap: 30px;
+   
+}
+.loving-features{
+    margin-top: 30px;
+}
+.loving-f-text{
+    display: flex;
+    flex-direction: column;
+   gap: 30px; 
+   width: 50%;
+   /* flex-shrink: 2; */
+    
+}
+.loving-f-img >img{
+    height: 100%;
+    width: 100%;
+}
+.loving-f-img{
+    width: 50%;
+    height: 700px;
+}
+.loving-f-text>div{
+    flex-shrink: 2;
+}
+
+.btn--secondary{
+    height: 155px;
+    width: 280px;
+    border-radius: 8px;
+    background-color: #FF900E;
+     /* margin:auto 20px; */
+     text-align: center;
+    margin-left: 1700px;
+    font-size: 25px;
+    position: relative;
+    
+    top: -160px;
+    
+    
+}
+.facts-container{
+    height: 400px;
+    width: 1300px;
+   
+    margin: 0 auto;
+    
+}
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px;
+    
+}
+.website > img{
+    height: 100%;
+    /* width: 100%; */
+    margin-top: 30px;
+  padding: 0;
+    
+}
+.website{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 10px; */
+    
+}
+/* .box .website > img{
+    height: 30px;
+    border: 1px solid tomato;
+    margin-top: 30px;
+    padding: 20px;
+    
+
+} */
+.websites{
+    height: 330px;
+    width: 1100px;
+    
+    margin-top: 30px;
+    padding: 0;
+
+}
+.website > div{
+    
+    border: 1px solid rgb(128, 0, 0);
+    
+}
+.sponsor{
+    width: 100%;
+    max-width: 1250px;
+    height: 500px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    
+    margin-top :50px;
+
+}
+.sp-text{
+    height: 40%px;
+    width: 450px;
+    
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+/* .sponsor-weblink > img{
+   height: 100%;
+   width: 100%;
+} */
+.paragraph{
+    height: 72px;
+    width: 332px;
+    /* text-align: center; */
+    padding: 10px;
+   
+}
+.sp-web{
+   height: 60%;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 10px;
+   gap: 70px;
+   margin-top: 50px;
+}
+.sp-web >img{
+    height: 10%;
+    width: 10%;
+}
+.footer{
+    width: 1200px;
+    height: 60px;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    background-color: #FFF4E7;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+ @media screen and (max-width:677px){
+   
+
+    .container-first{
+        width: 100%;
+        height: 500px;
+        margin-top: 0;
+    }
+    .brand{
+        height: 105px;
+        padding: 0;
+        text-align: start;
+    }
+    .brand-heading{
+    font-size: 24px;
+}
+.brand-paragraph{
+    font-size: 12px;
+    text-align: start;
+    padding: 0;
+}
+.btn--primary{
+    height: 35px;
+    width: 80px;
+}
+.brand-img{
+    height: 200px;
+    width: 350px;
+    
+    
+    /* border:1px solid blue; */
+    padding: 10px 30px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+   
+    padding: 0; 
+}
+.feature-images{
+    height: 250px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.btn--secondary{
+    height: 55px;
+    width: 180px;
+    border-radius: 8px;
+    margin-left: 30%;
+    font-size: 25px;
+    top: -60px;
+}
+.facts-container{
+    height: 200px;
+    width: 900px;
+}
+.heading{
+    font-size: 15px;
+}
+.website{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 90px;
+    
+    
+}
+.websites{
+    height: 30px;
+    width: 200px;
+    
+    margin-top: 0px;
+    padding: 30px;
+   
+
+}
+.sponsor{
+    
+        width: 100%;
+        max-width: 1250px;
+        height: 500px;
+        padding: 20px 10px;
+        margin: 0 auto;
+        
+        margin-top :400px;
+   
+}
+.sp-web{
+    height: 30%;
+}
+.footer{
+    width: 380px;
+    height: 160px;
+    text-align: start;
+    padding: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+   
+}
+
+    
+    
+ }
